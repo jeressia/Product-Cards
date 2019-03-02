@@ -130,7 +130,7 @@ img.logo{
 }
 
   
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 609px) and (max-width: 1024px) {
   /*Tablet*/
         .container {
             display: flex;
@@ -140,8 +140,16 @@ img.logo{
 
     }
 
+    .logo {
+        width: 30px;
+    }
+
+    .name{
+        text-align: center;
+    }
+
   }
-  @media (min-width: 320px) and (max-width: 450px) {
+  @media (min-width: 320px) and (max-width: 608px) {
     /*Tablet*/
           .container {
               display: flex;
@@ -151,5 +159,12 @@ img.logo{
               margin: 0 auto;
   
       }
-  
+
+      .logo{
+          width:20px;
+      }
+      .name{
+        text-align: center;
+    }
+
     }
